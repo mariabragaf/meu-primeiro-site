@@ -10,5 +10,7 @@ p {
 }
 
 header {
-    background-color: rgb(255, 165, 225);
+    background-color: rgb(228, 169, 208);
+    color: azure;
+    padding: 40px
 }
