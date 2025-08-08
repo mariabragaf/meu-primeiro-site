@@ -28,19 +28,51 @@ main {
 
 about-section {
     display: block;
-    background-color: white;
+    background-color: rgb(240, 214, 219);
     width: 80%;
     margin: 0 auto;
     padding: 25px;
     border-radius: 12px;
+    margin-bottom: 60px;
 }
 
 #titulo-sobre-mim {
     font-size: 20px;
-    border-bottom: 2px solid rgb(196, 131, 145);
+    border-bottom: 2px solid rgb(219, 157, 170);
+    margin-bottom: 20px;
 
 }
 .texto-sobre-mim{
     font-size: 20px;
     
 }
+
+hobbies {
+    display: block;
+    background-color: rgb(240, 214, 219);
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+#titulo-hobbies {
+    border-bottom: 2px solid rgb(219, 157, 170);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+li {
+    background-color: rgb(241, 227, 229);
+    padding: 12px;
+    border-left: 4px solid rgb(219, 157, 170);
+    font-size: 16px;
+    min-width: 150px;
+} 
