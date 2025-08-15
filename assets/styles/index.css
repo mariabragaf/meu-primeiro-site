@@ -76,3 +76,44 @@ li {
     font-size: 16px;
     min-width: 150px;
 } 
+li:hover{
+    background-color: rgb(221, 189, 194);
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+}
+contact {
+    display: block;
+    background-color: rgb(240, 214, 219);
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+contact h2 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+contact p {
+    text-align: center;
+    font-size: 19px;
+}
+
+contact a {
+    color:rgb(192, 136, 148);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.2rem 1rem;
+    margin: 0 0.2rem;
+    border: 2px solid rgb(192, 136, 148);
+    border-radius: 20px;
+    display: incline-block;
+}
+
+contact a:hover {
+    background-color: rgb(221, 189, 194);
+    color:aliceblue;
+    transform: translateY(-2px);
+}
